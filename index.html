@@ -8,20 +8,26 @@
 </head>
 <body>
 
-    <nav class="navbar">
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="slide-in-left">Davide Blaffard</h1>
+            <p class="slide-in-delay">Web & Software Developer</p>
+            <a href="#projects" class="cta-button fade-in-delayed">Scopri i miei progetti</a>
+        </div>
+    </header>
+
+    <nav class="navbar hidden">
         <ul>
         <li><a href="#about">About me</a></li>
+        <li><a href="#tech">Tecnologie</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contacts</a></li>
         <li><button id="theme-toggle">🌓</button></li>
         </ul>
     </nav>
-  <header class="fade-in">
-    <h1>Davide Blaffard</h1>
-    <p>Full Stack Developer Wannabe</p>
-  </header>
+    <div class="wrapper">
 
-  <section class="about fade-in">
+  <section id="about" class="about fade-in">
     <h2>About me</h2>
     <p>Hi, I m Davide — a junior full stack developer with a background in business economics and a passion for coding, data, and tech.
         After studying computer science in high school and taking a Data Science course (Python, Power BI, SQL), 
@@ -30,19 +36,47 @@
     </p>
   </section>
 
-  <section class="projects fade-in">
+  <section id="projects" class="projects fade-in">
     <h2>Projects</h2>
     <div class="project-card">
-      <h3>ticket-platform</h3>
-      <p>Web app for ticket management with custom login and CRUD for multiple user roles. Tech: Java, Spring Boot, MySQL
-Tech: Spring Boot, Java, MySQL</p>
+        <h3>Ticket Platform</h3>
+        <p>
+            Web app sviluppata con Java Spring Boot per gestire richieste di supporto tecnico.
+            Include autenticazione (admin/operatori), gestione ticket, note, categorie e stato avanzamento.
+        </p>
+        <a href="https://github.com/davideblaffard/ticket-platform" target="_blank">📁 GitHub</a>
     </div>
+
+    <div class="project-card">
+        <h3>PyMoney</h3>
+        <p>
+            Applicazione desktop per la gestione delle finanze personali, realizzata con Python e Kivy.
+            Permette di registrare entrate, uscite e visualizzare il saldo attuale in modo semplice e intuitivo.
+        </p>
+        <a href="https://github.com/davideblaffard/py-money" target="_blank">📁 GitHub</a>
+    </div>
+
     <!-- Altri progetti qui -->
   </section>
 
-  <footer class="fade-in">
+  <section id="tech" class="tech-section reveal">
+  <h2>My Stack</h2>
+  <div class="tech-row">
+    <div class="tech-item">HTML</div>
+    <div class="tech-item">CSS</div>
+    <div class="tech-item">JavaScript</div>
+    <div class="tech-item">Java</div>
+    <div class="tech-item">Spring Boot</div>
+    <div class="tech-item">Thymeleaf</div>
+    <div class="tech-item">Python</div>
+    <div class="tech-item">MySQL</div>
+  </div>
+</section>
+
+  <footer id="contact" class="fade-in">
     <p>&copy; 2025 Davide Blaffard — <a href="mailto:infodavide98@gmail.com">mail me</a></p>
   </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>

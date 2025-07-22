@@ -7,25 +7,15 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
     <header class="hero">
         <div class="hero-content">
             <h1 class="slide-in-left">Davide Blaffard</h1>
-            <p class="slide-in-delay">Web & Software Developer</p>
-            <a href="#projects" class="cta-button fade-in-delayed">Scopri i miei progetti</a>
-        </div>
+            <h3>Aspiring Web Developer</h3>
+            <a class="button" href="mailto:infodavide98@gmail.com">Get in touch</a>
+            <!-- <button class="button" id="theme-toggle" role="button">Goodnight</button> -->
     </header>
 
-    <nav class="navbar hidden">
-        <ul>
-        <li><a href="#about">About me</a></li>
-        <li><a href="#tech">Tecnologie</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contacts</a></li>
-        <li><button id="theme-toggle">🌓</button></li>
-        </ul>
-    </nav>
-    <div class="wrapper">
+  <div class="wrapper">
 
   <section id="about" class="about fade-in">
     <h2>About me</h2>
@@ -38,13 +28,14 @@
 
   <section id="projects" class="projects fade-in">
     <h2>Projects</h2>
+
     <div class="project-card">
         <h3>Ticket Platform</h3>
         <p>
             Web app sviluppata con Java Spring Boot per gestire richieste di supporto tecnico.
             Include autenticazione (admin/operatori), gestione ticket, note, categorie e stato avanzamento.
         </p>
-        <a href="https://github.com/davideblaffard/ticket-platform" target="_blank">📁 GitHub</a>
+        <a class="button" href="https://github.com/davideblaffard/ticket-platform"> GitHub</a>
     </div>
 
     <div class="project-card">
@@ -53,28 +44,40 @@
             Applicazione desktop per la gestione delle finanze personali, realizzata con Python e Kivy.
             Permette di registrare entrate, uscite e visualizzare il saldo attuale in modo semplice e intuitivo.
         </p>
-        <a href="https://github.com/davideblaffard/py-money" target="_blank">📁 GitHub</a>
+        <a class="button" href="https://github.com/davideblaffard/py-money"> GitHub</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Tower Defense</h3>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At ipsa obcaecati architecto vel quia debitis, suscipit distinctio blanditiis nihil animi fugit voluptatibus cum modi laborum totam quod nobis magnam quasi!
+        </p>
+       <a class="button" href="https://tower-defense-ruddy.vercel.app/">Play</a>
     </div>
 
     <!-- Altri progetti qui -->
   </section>
 
   <section id="tech" class="tech-section reveal">
-  <h2>My Stack</h2>
+  <h2>Current Stack</h2>
   <div class="tech-row">
-    <div class="tech-item">HTML</div>
-    <div class="tech-item">CSS</div>
-    <div class="tech-item">JavaScript</div>
-    <div class="tech-item">Java</div>
-    <div class="tech-item">Spring Boot</div>
-    <div class="tech-item">Thymeleaf</div>
-    <div class="tech-item">Python</div>
-    <div class="tech-item">MySQL</div>
+    <div class="button">HTML</div>
+    <div class="button">CSS</div>
+    <div class="button">JavaScript</div>
+    <div class="button">Java</div>
+    <div class="button">Spring Boot</div>
+    <div class="button">Python</div>
+  </div>
+
+  <h2>Learing</h2>
+  <div class="tech-row">
+    <div class="button">React</div>
+    <div class="button">Node.js</div>
   </div>
 </section>
 
   <footer id="contact" class="fade-in">
-    <p>&copy; 2025 Davide Blaffard — <a href="mailto:infodavide98@gmail.com">mail me</a></p>
+    <p>&copy; 2025 Davide Blaffard</p> 
   </footer>
   </div>
 

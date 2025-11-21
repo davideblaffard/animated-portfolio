@@ -1,0 +1,22 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# Node (solo se in futuro aggiungi npm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build/Cache (solo se un giorno usi build tools)
+dist/
+build/
+.cache/
